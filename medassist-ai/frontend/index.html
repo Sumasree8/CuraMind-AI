@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>MedAssist AI</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body class="bg-blue-50 h-screen flex items-center justify-center">
+
+<div class="w-full max-w-3xl bg-white rounded-xl shadow-lg flex flex-col h-[650px]">
+
+<!-- HEADER -->
+
+<div class="bg-blue-600 text-white p-4 rounded-t-xl">
+
+<h1 class="text-xl font-bold">MedAssist AI</h1>
+
+<p class="text-sm opacity-90">
+Medical Information Chatbot
+</p>
+
+</div>
+
+
+<!-- CHAT WINDOW -->
+
+<div id="chat-window" class="flex-1 overflow-y-auto p-5 space-y-4">
+
+<div class="bot-message">
+Hello 👋  
+I am MedAssist AI.  
+Ask me questions about common health conditions.
+</div>
+
+</div>
+
+
+<!-- TYPING INDICATOR -->
+
+<div id="typing" class="hidden px-5">
+
+<div class="bot-message flex items-center gap-2 w-fit">
+
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- INPUT AREA -->
+
+<div class="border-t p-4 flex gap-3">
+
+<input
+id="message"
+type="text"
+placeholder="Ask a health question..."
+class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+/>
+
+<button
+onclick="sendMessage()"
+class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700"
+>
+Send
+</button>
+
+</div>
+
+
+<!-- DISCLAIMER -->
+
+<div class="text-xs text-gray-500 text-center pb-2 px-4">
+
+⚠ This chatbot provides health information only.  
+It does not provide prescriptions or medical diagnosis.
+
+</div>
+
+</div>
+
+<script src="js/chat.js"></script>
+
+</body>
+
+</html>

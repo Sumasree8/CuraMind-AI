@@ -1,0 +1,37 @@
+.user-message{
+background:#2563eb;
+color:white;
+padding:10px 14px;
+border-radius:10px;
+max-width:70%;
+margin-left:auto;
+}
+
+.bot-message{
+background:#e5f4ff;
+padding:10px 14px;
+border-radius:10px;
+max-width:70%;
+}
+.dot{
+height:8px;
+width:8px;
+background:#555;
+border-radius:50%;
+display:inline-block;
+animation:blink 1.4s infinite both;
+}
+
+.dot:nth-child(2){
+animation-delay:0.2s;
+}
+
+.dot:nth-child(3){
+animation-delay:0.4s;
+}
+
+@keyframes blink{
+0%{opacity:0.2;}
+20%{opacity:1;}
+100%{opacity:0.2;}
+}

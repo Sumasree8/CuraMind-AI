@@ -1,0 +1,96 @@
+[
+  {
+    "keyword": "fever",
+    "summary": "Fever is a temporary increase in body temperature, usually caused by an infection.",
+    "symptoms": [
+      "Sweating",
+      "Chills",
+      "Headache",
+      "Muscle aches",
+      "Loss of appetite"
+    ],
+    "when_to_see_doctor": "Seek medical advice if the fever is above 103°F (39.4°C), lasts more than 3 days, or is accompanied by severe symptoms.",
+    "lifestyle_tips": [
+      "Stay hydrated",
+      "Get adequate rest",
+      "Wear light clothing",
+      "Monitor body temperature regularly"
+    ]
+  },
+
+  {
+    "keyword": "diabetes",
+    "summary": "Diabetes is a chronic condition where the body cannot properly regulate blood sugar levels due to insulin problems.",
+    "symptoms": [
+      "Frequent urination",
+      "Increased thirst",
+      "Fatigue",
+      "Blurred vision",
+      "Slow healing wounds"
+    ],
+    "when_to_see_doctor": "Consult a doctor if you experience persistent symptoms such as extreme thirst, frequent urination, or unexplained weight loss.",
+    "lifestyle_tips": [
+      "Maintain a balanced diet",
+      "Exercise regularly",
+      "Monitor blood sugar levels",
+      "Maintain a healthy body weight"
+    ]
+  },
+
+  {
+    "keyword": "cold",
+    "summary": "The common cold is a viral infection of the upper respiratory tract.",
+    "symptoms": [
+      "Sneezing",
+      "Runny nose",
+      "Sore throat",
+      "Mild cough",
+      "Nasal congestion"
+    ],
+    "when_to_see_doctor": "See a doctor if symptoms last more than 10 days or if you develop high fever or breathing difficulties.",
+    "lifestyle_tips": [
+      "Drink warm fluids",
+      "Get enough rest",
+      "Use saline nasal sprays",
+      "Wash hands frequently"
+    ]
+  },
+
+  {
+    "keyword": "headache",
+    "summary": "A headache is pain or discomfort in the head or face area and can have multiple causes.",
+    "symptoms": [
+      "Pain or pressure in the head",
+      "Sensitivity to light",
+      "Neck stiffness",
+      "Fatigue",
+      "Difficulty concentrating"
+    ],
+    "when_to_see_doctor": "Seek medical attention if headaches are severe, sudden, or accompanied by confusion, vision loss, or difficulty speaking.",
+    "lifestyle_tips": [
+      "Stay hydrated",
+      "Manage stress",
+      "Maintain proper sleep habits",
+      "Take breaks from screens"
+    ]
+  },
+
+  {
+    "keyword": "flu",
+    "summary": "Influenza (flu) is a contagious viral infection that affects the respiratory system.",
+    "symptoms": [
+      "High fever",
+      "Muscle aches",
+      "Chills",
+      "Fatigue",
+      "Dry cough"
+    ],
+    "when_to_see_doctor": "Consult a doctor if symptoms are severe, worsen quickly, or if breathing becomes difficult.",
+    "lifestyle_tips": [
+      "Rest at home",
+      "Drink plenty of fluids",
+      "Use fever reducers if advised",
+      "Avoid close contact with others"
+    ]
+  }
+]
