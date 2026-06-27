@@ -1,69 +1,47 @@
-🧠 CuraMind AI
-Your Safe Guide to Health Awareness
-"Is it a common cold or something more?" > CuraMind AI helps you understand your symptoms using verified medical data, while ensuring you stay safe by always putting professional medical advice first.
+<div align="center">
 
-🌟 Why CuraMind AI?
-In a world of "Dr. Google," it's easy to get scared by inaccurate health info (this is called Cyberchondria). CuraMind AI solves this by being a Responsible Assistant. It doesn't guess; it uses a structured knowledge base to give you facts, not fears.
+# 🧠 CuraMind AI
 
-🛡️ The "Safety First" Promise
-Unlike general AI, CuraMind has "Guardrails":
+### A safety-first medical information assistant that informs without diagnosing.
 
-No Prescriptions: It will never tell you what pills to take.
+*Turning "Dr. Google" anxiety into calm, structured, doctor-ready guidance.*
 
-No Diagnosis: It explains symptoms but never "labels" you with a disease.
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.x-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-Validated-E92063?logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-UI-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license)
+[![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen.svg)](#-roadmap)
 
-Emergency Detection: If you describe a life-threatening symptom (like chest pain), it stops the chat and tells you to call emergency services immediately.
+</div>
 
-🚀 How It Works (The Simple View)
-You Talk: Type your symptoms in the clean, blue-themed chat box.
+---
 
-It Checks: The system runs your words through a Safety Filter.
+## 📖 Overview
 
-It Searches: It looks into a curated Medical Knowledge Base (JSON).
+**CuraMind AI** is a responsible health-information chatbot. Instead of guessing diagnoses, it routes every user message through a deliberate **multi-stage safety pipeline** before answering from a curated medical knowledge base.
 
-It Guides: It gives you an easy-to-read explanation and suggests the next best steps for talking to a real doctor.
+The guiding principle is simple: **be helpful, but never replace a doctor.** Every layer of the architecture is built to protect the user — blocking medication advice, escalating emergencies, and always pointing back to a licensed professional.
 
-🛠️ Tech Stack (The Engine)
-We kept it lightweight and fast so it can run anywhere:
+> ⚠️ CuraMind AI is an **educator, not a doctor**. It is for general information only and is not a substitute for professional medical advice, diagnosis, or treatment.
 
-Backend: FastAPI (Python 3.11) — The "Brain" that handles logic.
+---
 
-Frontend: HTML5 & Tailwind CSS — A calm, professional look.
+## ✨ Key Features
 
-Data: JSON — A structured library of medical facts.
+| Feature | What it does |
+| --- | --- |
+| 🛡️ **Safety Filter** | Blocks requests for dosages, prescriptions, or specific medicines — the bot never tells you what to take. |
+| 🚨 **Emergency Red-Flag Detection** | Recognizes critical symptoms (chest pain, difficulty breathing, stroke signs) and immediately advises urgent care. |
+| 💬 **Conversational Follow-ups** | Asks intelligent clarifying questions (e.g. *"Is the pain sharp or dull?"*) to better understand the symptom. |
+| 🗺️ **Symptom Mapping** | Normalizes natural language ("my head hurts", "migraine") to canonical symptoms. |
+| 📚 **Curated Knowledge Base** | Answers from a structured, human-verified JSON library — facts, not hallucinations. |
+| 📝 **Doctor-Visit Prep** | When it can't safely answer, it hands the user a checklist to prepare for a real appointment. |
+| ⚡ **Lightweight & Fast** | Pure-Python FastAPI backend with zero heavyweight ML dependencies — runs anywhere. |
 
-💻 Quick Start for Developers
-Want to run this on your machine? It takes less than 2 minutes.
+---
 
-1. Get the Code
-Bash
-git clone https://github.com/Sumasree8/CuraMind-AI.git
-cd CuraMind-AI
-2. Set Up Your Space
-Bash
-py -3.11 -m venv venv
-.\venv\Scripts\activate
-pip install -r backend/requirements.txt
-3. Launch
-Bash
-uvicorn backend.app.main:app --reload
-Now open frontend/index.html in your browser and start chatting!
+## 🏗️ Architecture
 
-🗺️ What's Next?
-Smart Search: Moving from "Keyword matching" to "AI Meanings" (Vector DB).
+CuraMind processes every message through an ordered decision pipeline. **Safety always runs first.**
 
-Multilingual: Making health info accessible in every language.
-
-Voice Mode: Just speak your symptoms out loud.
-
-⚠️ A Friendly Reminder
-CuraMind AI is an educator, not a doctor. This tool is for information only. If you are feeling unwell, please see a licensed medical professional.
-
-🤝 Want to help?
-I'm looking for help with:
-
-Expanding the medical knowledge file.
-
-Improving the "Emergency Detection" logic.
-
-Making the UI even more accessible for elderly users.
